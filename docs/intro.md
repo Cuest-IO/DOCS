@@ -1,5 +1,6 @@
 ---
 sidebar_position: 1
+slug: /
 ---
 # Welcome!
 cuest.io empowers you to run Kubernetes workloads on macOS, Linux, and Windows at scale. Connect existing computers you already own to any existing Kubernetes cluster and enjoy running the workloads for free.

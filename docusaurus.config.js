@@ -40,6 +40,7 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           breadcrumbs: true,
+          routeBasePath: '/',
           editUrl:
             'https://github.com/Cuest-IO',
         },
@@ -59,12 +60,6 @@ const config = {
           src: 'img/vertical.svg',
         },
         items: [
-          {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'Tutorial',
-          },
           {
             type: 'search',
             position: 'right',
