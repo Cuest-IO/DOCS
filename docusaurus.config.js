@@ -6,9 +6,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'cuest.io',
-  tagline: 'cuest.io Betta release is here!',
-  favicon: 'img/vertical.png',
+  title: 'Crowd Cloud docs',
+  tagline: 'Crowd Cloud - Cloud made free',
+  favicon: 'img/favicon-32x32.png',
 
   // Set the production url of your site here
   url: 'https://docs.cuest.io',
@@ -57,7 +57,7 @@ const config = {
       navbar: {
         logo: {
           alt: 'Cuest Logo',
-          src: 'img/vertical.svg',
+          src: 'img/horizontal.png',
         },
         items: [
           {
@@ -70,15 +70,15 @@ const config = {
             position: 'right',
           },
           {
-            href: 'https://admin.cuest.io',
+            href: 'https://console.cuest.io',
             position: 'right',
-            label: 'Login',
+            label: 'Sign Up | Login',
           },
           {
-            href: 'https://cuest.io/demo',
+            href: 'https://cuest.io',
             position: 'right',
             label: 'Book a Demo',
-            className: 'button button--primary button--lg'
+            //className: 'button button--primary button--lg'
           },
         ],
       },
